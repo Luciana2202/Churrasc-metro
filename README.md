@@ -1,32 +1,35 @@
-Churrascômetro
+# Churrascômetro
+
 Aplicativo Android Nativo desenvolvido com a linguagem de programação Kotlin. Cujo objetivo é calcular a quantidade de carne, cerveja e refrigerante para um churrasco entre amigos.
 
-📸 Screenshots
+## :camera_flash: Screenshots
 
-![Tela Inicial](https://github.com/Luciana2202/Churrasc-metro/blob/master/Tela1.png)   ![Tela Resultado](https://github.com/Luciana2202/Churrasc-metro/blob/master/gradle/Screenshot_20241118_184257.png)
- 
+<img src="https://github.com/Luciana2202/Churrasc-metro/blob/master/Tela1.png" width=200/>  <img src="https://github.com/Luciana2202/Churrasc-metro/blob/master/gradle/Screenshot_20241118_184257.png" width=200/>
+  
+## Tecnologias:
 
-Tecnologias:
-Intent
-Activity para host de telas
-Snackbar
-ViewGroup
-ConstraintLayout
-Views
-TextView
-EditText
-Button
-ImageView
-Toast para display de mensagens
-Intent Explicita para abrir a segunda Activity
-Binding para recuperar components de UI
-String resource para concatenação de textos
+* Intent
+* Activity para host de telas
+* Snackbar
+* ViewGroup
+    -ConstraintLayout
+* Views
+    - TextView
+    - EditText
+    - Button
+    - ImageView
+* Toast para display de mensagens
+* Intent Explicita para abrir a segunda Activity
+* Binding para recuperar components de UI
+* String resource para concatenação de textos
 
-TODO:
-Melhorar estilização do app
-Adicionar teste
-Melhorar arquitetura
-License
+## TODO:
+
+* Melhorar estilização do app
+* Adicionar teste
+* Melhorar arquitetura
+
+## License
 The MIT License (MIT)
 
 Copyright (c) 2024 Luciana Santos
