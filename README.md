@@ -4,7 +4,7 @@ Aplicativo Android Nativo desenvolvido com a linguagem de programação Kotlin. 
 
 ## :camera_flash: Screenshots
 
-<img src="https://github.com/Luciana2202/Churrasc-metro/blob/master/Tela1.png" width=200/>  <img src="https://github.com/Luciana2202/Churrasc-metro/blob/master/gradle/Screenshot_20241118_184257.png" width=200/>
+<img src="https://github.com/Luciana2202/Churrasc-metro/blob/master/Tela1.png" width=200/>              <img src="https://github.com/Luciana2202/Churrasc-metro/blob/master/gradle/Screenshot_20241118_184257.png" width=200/>
   
 ## Tecnologias:
 
