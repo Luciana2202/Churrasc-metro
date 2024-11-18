@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SummaryActivity">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Churrascômetro"
+        android:textColor="@color/whine"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_bife"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:contentDescription="Imagem Bife"
+        android:src="@drawable/ic_bife"
+        app:layout_constraintBottom_toBottomOf="@id/total_carne"
+        app:layout_constraintEnd_toStartOf="@id/total_carne"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/total_carne" />
+
+
+    <TextView
+        android:id="@+id/total_carne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:layout_marginTop="16dp"
+        android:text=" Quantidade de Carne(kg):"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titulo" />
+
+    <ImageView
+        android:id="@+id/img_refri"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:contentDescription="Imagem Refrigerante"
+        android:src="@drawable/refrigerante"
+        app:layout_constraintBottom_toBottomOf="@id/total_refrigerante"
+        app:layout_constraintEnd_toStartOf="@id/total_refrigerante"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/total_refrigerante" />
+
+
+    <TextView
+        android:id="@+id/total_refrigerante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:text="Quantidade de Refrigerante(L):"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/total_carne" />
+
+    <ImageView
+        android:id="@+id/img_agua"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:contentDescription="Imagem Água"
+        android:src="@drawable/agua"
+        app:layout_constraintBottom_toBottomOf="@id/total_agua"
+        app:layout_constraintEnd_toStartOf="@id/total_agua"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/total_agua" />
+
+    <TextView
+        android:id="@+id/total_agua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:text="Quantidade de Água(L):"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.409"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/total_refrigerante" />
+
+    <ImageView
+        android:id="@+id/img_cerveja"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:contentDescription="Imagem Cerveja"
+        android:src="@drawable/cerveja"
+        app:layout_constraintBottom_toBottomOf="@id/total_cerveja"
+        app:layout_constraintEnd_toStartOf="@id/total_cerveja"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/total_cerveja" />
+
+    <TextView
+        android:id="@+id/total_cerveja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:text="Quantidade de Cerveja(Lata):"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/total_agua" />
+
+    <ImageView
+        android:id="@+id/img_churra"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:contentDescription="Imagem Confraternização"
+        android:src="@drawable/familia"
+        app:layout_constraintBottom_toTopOf="@id/bt_recalcular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/total_cerveja" />
+
+    <Button
+        android:id="@+id/bt_recalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Refazer o Calculo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
